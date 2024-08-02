@@ -1,0 +1,31 @@
+.friendList {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+} 
+
+.friendListItem {
+    width: calc(100% / 5);
+}
+
+.itemWrapper {
+    border: 2px solid #111;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.online, .offline {
+    font-size: smaller;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}

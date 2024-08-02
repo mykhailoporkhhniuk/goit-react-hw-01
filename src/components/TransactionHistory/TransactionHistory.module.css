@@ -1,0 +1,18 @@
+.table {
+    width: 400px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.thead {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+}
+
+.tItem {
+    border: 1px solid #111;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
